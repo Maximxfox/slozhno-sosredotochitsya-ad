@@ -202,6 +202,7 @@
   gap: 10px;
 }
 
+.what-content-section .card-title,
 .gallery .card-title {
   grid-column: span 3;
 }
@@ -243,10 +244,20 @@
     margin-inline-start: -20px;
   }
 
+  .header__subtitle {
+    grid-column: 2 / 4;
+    grid-row: 3;
+  }
+
   .content {
     gap: 80px;
     margin-block: 60px;
     padding-inline: 20px;
+  }
+
+  .how-content-section .content-title {
+    grid-column: 1;
+
   }
 
   .why-content-section .content-title,
@@ -307,5 +318,6 @@
 
   .how-content-section .card-section {
     grid-column: auto;
+    grid-row: 2;
   }
 }
