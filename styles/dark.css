@@ -1,10 +1,10 @@
 :root.theme-dark {
   --background-image: url("../images/cover-image-dark.png");
-  --accent-color: #FF0070;
-  --accent-color-hover: #FF007066;
+  --accent-color: #ff0070;
+  --accent-color-hover: #ff007066;
   --background-color: #000028;
-  --text-color: #F1B2CE;
-  --h1-color: #DB00FF;
+  --text-color: #f1b2ce;
+  --h1-color: #db00ff;
   --h2-color: var(--accent-color);
   --h3-color: var(--background-color);
   --decoration-color: var(--accent-color);
